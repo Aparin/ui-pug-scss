@@ -1,4 +1,3 @@
-$body-color: red;
-body {
-    color: $body-color;
-}
+@import './views/base/reset';
+@import './views/base/main';
+@import './views/components/close-button/close-button';
