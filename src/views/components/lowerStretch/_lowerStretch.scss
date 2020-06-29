@@ -1,0 +1,49 @@
+             // Нижняя растяжка
+             .lowerStretch {
+                 color: white;
+                 animation-name: lowerStretch;
+                 animation-duration: 20s;
+                 animation-iteration-count: infinite;
+                 line-height: 1;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 color: white;
+                 position: fixed;
+                 z-index: 99999;
+                 left: 0;
+                 bottom: 0;
+                 height: 34px;
+                 width: 100%;
+             }
+             
+             a.lowerStretch {
+                 font-size: 18px;
+                 font-family: Georgia, 'Times New Roman', Times, Serif;
+                 color: white;
+             }
+             
+             @keyframes lowerStretch {
+                 0% {
+                     background-color: red;
+                 }
+                 15% {
+                     background-color: orange;
+                 }
+                 30% {
+                     background-color: green;
+                 }
+                 45% {
+                     background-color: blue;
+                 }
+                 75% {
+                     background-color: green;
+                 }
+                 90% {
+                     background-color: orange;
+                 }
+                 to {
+                     background-color: red;
+                 }
+             }

@@ -1,4 +1,4 @@
-import hideObjectFunction from '../../../js/hideObjectFunction';
+import hideObjectsFunction from '../../../js/hideObjectsFunction';
 
 const closeButton = document.querySelector('#close-button');
-closeButton.addEventListener('click', ()=>hideObjectFunction(closeButton));
+closeButton.addEventListener('click', ()=>hideObjectsFunction(closeButton));
